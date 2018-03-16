@@ -10,6 +10,6 @@ while True:
 		point = (uniform(-r,r), uniform(-r,r))
 		if point[0]**2 + point[1]**2 < 1:
 			inside += 1
-	pi = inside * (2*r)**2 / n
+	pi = inside / n * 4
 	clear()
 	print(pi)
